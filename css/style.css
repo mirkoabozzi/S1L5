@@ -1,0 +1,95 @@
+/* Your styles here */
+.intestazione {
+    background-image: url(../images/banner.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: contain ;  
+}
+#bottom {
+    background-color: #e22d0e;
+    margin: 50px 150px;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+   }
+
+.redarticle {
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+footer {
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+}
+body {
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+}
+.roundimage img {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+}
+header {
+    background-color: black;
+}
+img {
+    width: 420px;
+}
+article {
+    border: 1px solid #dee1e3;
+    margin: 40px 40px;
+}
+p {
+    margin: 15px;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 1.2em;
+    line-height: 1.65em;
+    font-style: bold;
+  }
+h1 {
+    font-family: "Montserrat";
+    line-height: 1.5em;
+    font-style: bold;
+    color: #25a2c3;
+    font-size: 50px;
+    padding-top: 20px ;
+}
+h2 {
+    color: #25a2c3;
+    font-size: 20px;
+}
+footer h1{
+    color: white;
+    font-size: 30px;
+}
+.redarticle h2{
+    color: white;
+    font-size: 30px;
+}
+blockquote {
+    margin-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+section h2 {
+    margin-top: 30px;
+}
+.redarticle h2{
+    margin-top: 30px;
+}
+#copy{
+    border-top: 1px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
