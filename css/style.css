@@ -28,6 +28,10 @@ body {
     text-align: center;
     margin: auto;
     max-width: 500px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 1.2em;
+    line-height: 1.65em;
+    font-style: bold;
 }
 .roundimage img {
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
@@ -45,25 +49,20 @@ article {
 p {
     margin: 15px;
     line-height: 1.5em;
-    font-size: 20px;
+    font-size: 25px;
 }
-body {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 1.2em;
-    line-height: 1.65em;
-    font-style: bold;
-  }
 h1 {
     font-family: "Montserrat";
     line-height: 1.5em;
-    font-style: bold;
+    font-weight: bold;
     color: #25a2c3;
     font-size: 50px;
     padding-top: 20px ;
 }
 h2 {
     color: #25a2c3;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 footer h1{
     color: white;
@@ -92,6 +91,6 @@ section h2 {
 a {
     color: white;
 }
-footer p {
+.underline {
     text-decoration: underline;
 }
