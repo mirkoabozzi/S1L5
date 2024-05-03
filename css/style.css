@@ -90,6 +90,8 @@ section h2 {
     margin-right: 100px;
 }
 a {
-    text-decoration:none;
     color: white;
+}
+footer p {
+    text-decoration: underline;
 }
