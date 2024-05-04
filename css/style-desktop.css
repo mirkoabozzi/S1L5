@@ -1,8 +1,10 @@
 body {
-    max-width: 1920px;    
+    max-width: 1920px; 
+    margin: auto;
     font-family: "Open Sans", sans-serif;
-    font-weight: 1.2em;
-    line-height: 1.65em;
+    font-weight: 1.2rem;
+    line-height: 1.65rem;
+    color: #393d41;
     font-style: bold;
 }
 .logo {
@@ -16,14 +18,19 @@ body {
     height: 700px;
 }
 #text-intestazione {
-    margin-left: 500px;
-    margin-right: 500px;
-    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 200px 200px 20px 200px;
 }
-.bottom {
-    background-color: #e22d0e;
-    padding: 15px;
-    margin: 30px 900px;  
+#text-intestazione h1{
+    margin-bottom: 20px;
+}
+button {
+    background-color: #f04c2f;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding: 20px 35px;
+    margin: 10px auto;  
     border-radius: 5px;
     color: white;   
 }
@@ -48,14 +55,13 @@ section {
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 }
 .redarticle {
-    background-color: #e22d0e;
+    background-color:#e22d0e;
     color: white;
     text-align: center;
     padding: 100px;
 }
 aside{
     display: flex;
-    max-width: 1920px;
     justify-content: center;
     margin: 100px auto;
 }
@@ -66,13 +72,10 @@ aside article {
 aside article {
     border: 1px solid #dee1e3;
     max-width: 400px;
-    
 }
 aside img{
     max-width: 400px;
     max-height: 248px;
-    
-
 }
 blockquote {
     font-size: 30px;
@@ -80,48 +83,54 @@ blockquote {
     padding: 40px;
 }
 .ceo{
-    font-size: 18px;
+    font-size: 12px;
 }
 footer {
+    padding: 60px;
     background-color: #25a2c3;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;    
 }
 header {
     background-color: black;
 }
-
 p {
-    
     line-height: 1.5em;
-    font-size: 25px;
+    font-size: 20px;
+}
+article p{
+    font-size: 16px;
+}
+h1,h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: #25a2c3;
 }
 h1 {
-    font-family: "Montserrat";
-    line-height: 1.5em;
-    font-weight: bold;
-    color: #25a2c3;
-    font-size: 50px;
-    
+   font-size: 50px;
 }
 h2 {
-    color: #25a2c3;
-    font-size: 25px;
-    font-weight: bold;
+   font-size: 25px;
+}
+aside article p{
+    margin: 10px 20px 50px 10px;
 }
 footer h1{
     color: white;
-    font-size: 30px;
+    margin-bottom: 30px;
+    
 }
 .redarticle h2{
     color: white;
     font-size: 30px;
-}
-
-   
+} 
 #copy{
     border-top: 1px solid white;
-    
+    padding-top: 30px;
+    margin-top: 30px; 
+    text-align: center;
 }
 a {
     color: white;
