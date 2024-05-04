@@ -1,0 +1,131 @@
+body {
+    max-width: 1920px;    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 1.2em;
+    line-height: 1.65em;
+    font-style: bold;
+}
+.logo {
+    width: 200px;
+    padding: 30px;
+}
+.intestazione {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;  
+    text-align: center;
+    height: 700px;
+}
+#text-intestazione {
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 200px;
+}
+.bottom {
+    background-color: #e22d0e;
+    padding: 15px;
+    margin: 30px 900px;  
+    border-radius: 5px;
+    color: white;   
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+#text-image {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+#text-image h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.roundimage {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.roundimage img {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+.redarticle {
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+aside{
+    display: flex;
+    max-width: 1920px;
+    justify-content: center;
+    margin: 100px auto;
+}
+aside article {
+    margin: 40px;
+    text-align: center;
+}
+aside article {
+    border: 1px solid #dee1e3;
+    max-width: 400px;
+    
+}
+aside img{
+    max-width: 400px;
+    max-height: 248px;
+    
+
+}
+blockquote {
+    font-size: 30px;
+    font-style: italic;
+    padding: 40px;
+}
+.ceo{
+    font-size: 18px;
+}
+footer {
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+}
+header {
+    background-color: black;
+}
+
+p {
+    
+    line-height: 1.5em;
+    font-size: 25px;
+}
+h1 {
+    font-family: "Montserrat";
+    line-height: 1.5em;
+    font-weight: bold;
+    color: #25a2c3;
+    font-size: 50px;
+    
+}
+h2 {
+    color: #25a2c3;
+    font-size: 25px;
+    font-weight: bold;
+}
+footer h1{
+    color: white;
+    font-size: 30px;
+}
+.redarticle h2{
+    color: white;
+    font-size: 30px;
+}
+
+   
+#copy{
+    border-top: 1px solid white;
+    
+}
+a {
+    color: white;
+}
+.underline {
+    text-decoration: underline;
+}
