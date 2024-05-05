@@ -33,6 +33,7 @@ button {
     margin: 10px auto;  
     border-radius: 5px;
     color: white;   
+    border: none;
 }
 section {
     display: flex;
@@ -131,6 +132,7 @@ footer h1{
     padding-top: 30px;
     margin-top: 30px; 
     text-align: center;
+    color: #c8e7f0;
 }
 a {
     color: white;
